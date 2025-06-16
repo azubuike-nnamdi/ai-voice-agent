@@ -28,16 +28,24 @@ pnpm dev
 
 # 🔋 Features
 
----
+-  **AI Voice Agents**: Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
 
-👉 **AI Voice Agents**: Take tutoring sessions with voiced AIs specializing in the topics you want to get better at.
-👉 **Authentication**: Secure user sign-up and sign-in with Clerk; Google authentication and many more.
-👉 **Billing & Subscriptions**: Easily manage plans, upgrades, and payment details.
-👉 **Bookmarks and Session History**: Let users organise their learning by bookmarking tutors and accessing previous sessions.
-👉 **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
-👉 **Create a Tutor**: Create your own AI tutors, choosing a subject, topic, and style of conversation.
-👉 **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
-👉 **Database Integration**: Uses Supabase for real-time data handling and storage needs.
-👉 **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
-👉 **Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.
-👉 **Search Functionality**: Find tutors quickly with robust filters and search bar.
+-  **Authentication**: Secure user sign-up and sign-in with Clerk; Google authentication and many more.
+
+-  **Billing & Subscriptions**: Easily manage plans, upgrades, and payment details.
+
+-  **Bookmarks and Session History**: Let users organise their learning by bookmarking tutors and accessing previous sessions.
+
+-  **Code Reusability**: Leverage reusable components and a modular codebase for efficient development.
+
+-  **Create a Tutor**: Create your own AI tutors, choosing a subject, topic, and style of conversation.
+
+-  **Cross-Device Compatibility**: Fully responsive design that works seamlessly across all devices.
+
+-  **Database Integration**: Uses Supabase for real-time data handling and storage needs
+
+-  **Modern UI/UX**: Clean, responsive design built with Tailwind CSS and shadcn/ui for a sleek user experience.
+
+-  **Scalable Tech Stack**: Built with Next.js for a fast, production-ready web application that scales seamlessly.
+
+-  **Search Functionality**: Find tutors quickly with robust filters and search bar.
