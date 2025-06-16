@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import NavItems from './nav-items'
 
 export default function Navbar() {
   return (
@@ -11,15 +12,8 @@ export default function Navbar() {
         </div>
       </Link>
       <div className='flex items-center gap-8'>
-        <Link href='/' className='navbar-item'>
-          Home
-        </Link>
-        <Link href='/about' className='navbar-item'>
-          About
-        </Link>
-        <Link href='/contact' className='navbar-item'>
-          Contact
-        </Link>
+        <NavItems />
+        <p>Sign In</p>
       </div>
 
     </nav>
