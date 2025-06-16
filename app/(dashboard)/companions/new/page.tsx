@@ -1,11 +1,14 @@
+import CompanionForm from '@/components/companion-form'
 import React from 'react'
 
 export default function Page() {
   return (
-    <div>
-      <h1>Create a New Companion</h1>
-      <p>Fill out the form below to create a new companion.</p>
-      {/* Add your form or components here */}
-    </div>
+    <main className="min-lg:w-1/3 min-md:w-2/3 items-center justify-center">
+      <article className="w-full gap-4 flex flex-col">
+        <h1>Companion Builder</h1>
+
+        <CompanionForm />
+      </article>
+    </main>
   )
 }
