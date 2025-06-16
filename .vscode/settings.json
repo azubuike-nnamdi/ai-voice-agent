@@ -5,6 +5,7 @@
       "organise",
       "shadcn",
       "Supabase",
+      "turbopack",
       "Vapi"
    ]
 }
