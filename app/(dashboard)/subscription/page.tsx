@@ -1,11 +1,9 @@
-import React from 'react'
+import { PricingTable } from '@clerk/nextjs'
 
 export default function Page() {
   return (
     <div>
-      <h1>Subscription</h1>
-      <p>This is the subscription page.</p>
-      {/* Add your subscription content or components here */}
+      <PricingTable />
     </div>
   )
 }
