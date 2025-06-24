@@ -1,7 +1,13 @@
-import Image from 'next/image'
-import Link from 'next/link'
-import React from 'react'
-import NavItems from './nav-items'
+import {
+  SignInButton,
+  SignUpButton,
+  SignedIn,
+  SignedOut,
+  UserButton,
+} from "@clerk/nextjs";
+import Image from 'next/image';
+import Link from 'next/link';
+import NavItems from './nav-items';
 
 export default function Navbar() {
   return (
@@ -13,9 +19,24 @@ export default function Navbar() {
       </Link>
       <div className='flex items-center gap-8'>
         <NavItems />
-        <p>Sign In</p>
+        <SignedOut>
+          <div className="flex items-center gap-4">
+            <SignInButton mode="modal">
+              <button className="hover:text-primary transition-colors">
+                Sign In
+              </button>
+            </SignInButton>
+            <SignUpButton>
+              <button className="bg-primary text-primary-foreground px-4 py-2 rounded-md hover:bg-primary/90 transition-colors">
+                Sign Up
+              </button>
+            </SignUpButton>
+          </div>
+        </SignedOut>
+        <SignedIn>
+          <UserButton />
+        </SignedIn>
       </div>
-
     </nav>
   )
 }
